@@ -1,0 +1,92 @@
+[
+    {
+    "id": 1,
+    "title": "Responsive Web Design",
+    "description": "I build fully responsive, mobile-friendly websites that look perfect on all screen sizes.",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png"
+  },
+  {
+    "id": 2,
+    "title": "Frontend Development",
+    "description": "I develop clean, modern, and high-performance user interfaces using React, Next.js, and Tailwind CSS.",
+    "icon": "https://cdn-icons-png.flaticon.com/512/753/753318.png"
+  },
+  {
+    "id": 3,
+    "title": "Landing Page Creation",
+    "description": "I design and develop conversion-focused landing pages optimized for speed and user experience.",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828881.png"
+  },
+  {
+    "id": 4,
+    "title": "UI Component Development",
+    "description": "Custom reusable components using React, JavaScript, and Tailwind to make your UI scalable.",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828890.png"
+  },
+  {
+    "id": 5,
+    "title": "Website Optimization",
+    "description": "I improve website performance, loading speed, and overall user experience for better rankings.",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828843.png"
+  },
+  {
+    "id": 6,
+    "title": "API Integration",
+    "description": "I integrate REST APIs or third-party services smoothly into your frontend applications.",
+    "icon": "https://cdn-icons-png.flaticon.com/512/993/993707.png"
+  },
+  {
+    "id": 7,
+    "title": "Portfolio Website Development",
+    "description": "I design and develop modern personal portfolio websites that highlight your skills and achievements.",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3242/3242257.png"
+  },
+  {
+    "id": 8,
+    "title": "SPA (Single Page Application)",
+    "description": "I create fast and dynamic single-page applications using React and Next.js for smooth user experiences.",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828859.png"
+  },
+  {
+    "id": 9,
+    "title": "Dashboard UI Development",
+    "description": "I build clean, functional, and interactive dashboard interfaces with charts, tables, and analytics views.",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3898/3898783.png"
+  },
+  {
+    "id": 10,
+    "title": "Website Redesign",
+    "description": "I take your old website and redesign it with a fresh, modern, and user-friendly interface.",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1006/1006771.png"
+  },
+  {
+    "id": 11,
+    "title": "Animation & Motion UI",
+    "description": "I add smooth interactions, hover effects, and scroll animations using Framer Motion and CSS animations.",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828886.png"
+  },
+  {
+    "id": 12,
+    "title": "Design to Code Conversion",
+    "description": "I convert Figma, XD, or Sketch designs into fully working, pixel-perfect frontend interfaces.",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828874.png"
+  },
+  {
+    "id": 13,
+    "title": "E-commerce Frontend",
+    "description": "I build product pages, cart UI, checkout UI, and full e-commerce frontends with smooth functionality.",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3081/3081559.png"
+  },
+  {
+    "id": 14,
+    "title": "SEO-Friendly Frontend",
+    "description": "I develop SEO-optimized pages with clean structure, meta tags, and fast loading speed for better ranking.",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3481/3481039.png"
+  },
+  {
+    "id": 15,
+    "title": "Bug Fixing & UI Debugging",
+    "description": "I fix layout issues, JS errors, responsive problems, and UI bugs to make your website stable.",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828848.png"
+  }
+]
