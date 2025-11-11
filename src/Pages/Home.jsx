@@ -2,6 +2,9 @@ import { Link } from "react-router"
 import DarkVeil from "../Components/DarkVeli"
 import Header from "../Components/Header"
 import Section2 from "./PagesComponent/Section2"
+import Section3 from "./PagesComponent/Section3"
+import Section4 from "./PagesComponent/Section4"
+import Section5 from "./PagesComponent/Section5"
 
 
 
@@ -12,6 +15,9 @@ const Home = () => {
     <div className="-translate-y-25 relative h-screen" style={{ width: '100%', minHeight: '100vh', position: 'relative' }}>
         <DarkVeil />
         <Section2 />
+        <Section3 />
+        <Section4 />
+        <Section5 />
     </div>
 
 

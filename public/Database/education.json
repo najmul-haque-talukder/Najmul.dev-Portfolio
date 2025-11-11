@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "institution": "Jamila Khatun High School",
+    "year": 2021,
+    "degree": "Secondary School Certificate (SSC)",
+    "department": "General Mechanics",
+    "description": "I completed my SSC in 2021 from Jamila Khatun High School, specializing in General Mechanics.",
+    "image": "/jkhs.jpg"
+  },
+  {
+    "id": 2,
+    "institution": "Cumilla Polytechnic Institute",
+    "year": "2021-22",
+    "degree": "Diploma in Engineering",
+    "department": "Computer Science & Technology (CST)",
+    "description": "I pursued my Diploma in Engineering in Computer Science & Technology at Cumilla Polytechnic Institute, session 2021-22.",
+    "image": "/cpi.jpg"
+  }
+]
