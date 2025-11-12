@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Logo & About */}
           <div className='flex-1'>
             <div className='flex items-center gap-3'>
-              <img src="/public/najmuls-min.png" className='w-16 sm:w-20' />
+              <img src="/najmuls-min.png" className='w-16 sm:w-20' />
               <p className='text-2xl sm:text-3xl font-bold'>Najmul.dev</p>
             </div>
 

@@ -13,7 +13,7 @@ const Header = () => {
           
           {/* Logo */}
           <div className="text-white flex items-center font-bold text-2xl sm:text-3xl">
-            <img src="/src/assets/najmuls-min.png" className="w-14 sm:w-20" />
+            <img src="/najmuls-min.png" className="w-14 sm:w-20" />
             <p>Najmul.dev</p>
           </div>
 
