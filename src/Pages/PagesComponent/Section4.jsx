@@ -36,19 +36,19 @@ const Section4 = () => {
                   {item.description}
                 </p>
                 <div className="py-4 flex flex-col md:flex-row gap-4 items-center">
-  <img
-    src={item.image}
-    alt={item.institution}
-    className="rounded-full w-14 sm:w-16 md:w-20 object-cover flex-shrink-0"
-  />
-  <div>
-    <p className="text-base sm:text-lg md:text-xl font-semibold">
-      {item.institution}
-    </p>
-    <p className="text-sm sm:text-base text-gray-400">{item.degree}</p>
-    <p className="text-sm sm:text-base text-gray-400">{item.department}</p>
-  </div>
-</div>
+                  <img
+                    src={item.image}
+                    alt={item.institution}
+                    className="rounded-full w-14 sm:w-16 md:w-20 object-cover flex-shrink-0"
+                  />
+                  <div>
+                    <p className="text-base sm:text-lg md:text-xl font-semibold">
+                      {item.institution}
+                    </p>
+                    <p className="text-sm sm:text-base text-gray-400">{item.degree}</p>
+                    <p className="text-sm sm:text-base text-gray-400">{item.department}</p>
+                  </div>
+                </div>
 
               </div>
             </div>
