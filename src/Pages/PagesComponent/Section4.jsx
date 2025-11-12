@@ -45,8 +45,8 @@ const Section4 = () => {
                     <p className="text-base sm:text-lg md:text-xl font-semibold">
                       {item.institution}
                     </p>
-                    <p className="text-sm sm:text-base text-gray-400">{item.degree}</p>
-                    <p className="text-sm sm:text-base text-gray-400">{item.department}</p>
+                    <p className="text-sm text-gray-400">{item.degree}</p>
+                    <p className="text-sm text-gray-400">{item.department}</p>
                   </div>
                 </div>
 
