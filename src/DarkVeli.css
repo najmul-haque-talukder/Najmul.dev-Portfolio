@@ -1,5 +1,22 @@
 .darkveil-canvas {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: block;
+  object-fit: cover;
+}
+
+@media (max-width: 640px) {
+  .darkveil-canvas {
+    height: 60vh;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
+  .darkveil-canvas {
+    height: 75vh;
+  }
+}
+
+.darkveil-canvas {
+  transition: height 0.4s ease;
 }

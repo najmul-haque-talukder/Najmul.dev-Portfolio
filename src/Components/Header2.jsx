@@ -1,20 +1,22 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router';
 
-const Header = () => {
+const Header2 = () => {
 
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="w-full">
+    <div className="bg-black w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-3">
         
         <div className="flex items-center justify-between">
           
           {/* Logo */}
           <div className="text-white flex items-center font-bold text-2xl sm:text-3xl">
-            <img src="/src/assets/najmuls.png" className="w-14 sm:w-20" />
-            <p>Najmul.dev</p>
+            <Link to={"/"}>
+                <img src="/src/assets/najmuls.png" className="w-14 sm:w-20 cursor-pointer" />
+                <p className='cursor-pointer'>Najmul.dev</p>
+            </Link>
           </div>
 
           {/* Desktop Menu */}
@@ -52,4 +54,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header2;

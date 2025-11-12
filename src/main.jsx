@@ -7,6 +7,8 @@ import Root from './Layout/Root';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Contacts from './Pages/Contacts';
+import Blog from './Pages/Blog';
+import Projects from './Pages/Projects';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
       {
         path : "/contacts",
         element : <Contacts />
+      },
+      {
+        path : "/blog",
+        element : <Blog />
+      },
+      {
+        path : "/projects",
+        element : <Projects />
       }
     ]
   },

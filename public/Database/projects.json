@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Travel Booking Website",
+    "description": "A responsive travel booking UI with destination cards, filtering, and smooth animations.",
+    "tech": ["React", "Tailwind", "JavaScript"],
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "liveLink": "https://example.com/travel",
+    "codeLink": "https://github.com/username/travel"
+  },
+  {
+    "id": 2,
+    "title": "E-commerce Product Page",
+    "description": "A clean product page with cart UI, pricing logic, and a fully responsive layout.",
+    "tech": ["Next.js", "Redux", "CSS"],
+    "image": "https://images.unsplash.com/photo-1585386959984-a4155223f8a2",
+    "liveLink": "https://example.com/ecommerce",
+    "codeLink": "https://github.com/username/ecommerce"
+  },
+  {
+    "id": 3,
+    "title": "Portfolio Website",
+    "description": "A personal portfolio site showcasing skills, projects, and contact information.",
+    "tech": ["React", "Tailwind", "Framer Motion"],
+    "image": "https://images.unsplash.com/photo-1559027615-ce3b494c0f5d",
+    "liveLink": "https://example.com/portfolio",
+    "codeLink": "https://github.com/username/portfolio"
+  },
+  {
+    "id": 4,
+    "title": "Blog Post System UI",
+    "description": "A modern blog UI with create, read, and preview features, designed for creators.",
+    "tech": ["React", "JavaScript", "JSON"],
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+    "liveLink": "https://example.com/blog",
+    "codeLink": "https://github.com/username/blog"
+  },
+  {
+    "id": 5,
+    "title": "Admin Dashboard",
+    "description": "A dashboard with charts, tables, stats, and a responsive sidebar UI.",
+    "tech": ["React", "Recharts", "Tailwind"],
+    "image": "https://images.unsplash.com/photo-1556155092-8707de31f9c4",
+    "liveLink": "https://example.com/dashboard",
+    "codeLink": "https://github.com/username/dashboard"
+  },
+  {
+    "id": 6,
+    "title": "Restaurant Landing Page",
+    "description": "A premium restaurant landing page with hero banner, menu, and reservation UI.",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de",
+    "liveLink": "https://example.com/restaurant",
+    "codeLink": "https://github.com/username/restaurant"
+  }
+]
