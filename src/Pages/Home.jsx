@@ -12,7 +12,9 @@ const Home = () => {
     <div className="relative w-full min-h-screen bg-gray-950">
       {/* Main Content */}
       <div className="-translate-y-25 w-full min-h-screen max-h-[1000px] bg-gray-950">
-        <DarkVeil />
+        <div className="bg-cover w-full">
+            <DarkVeil />
+        </div>
         <Section2 />
         <Section3 />
         <Section4 />
