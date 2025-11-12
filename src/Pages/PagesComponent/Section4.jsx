@@ -28,7 +28,7 @@ const Section4 = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     {data.map(item => (
                         <div key={item.id}>
-                            <div className="bg-gray-900 p-5 border border-gray-400 rounded-lg">
+                            <div className="bg-gray-900 p-5 border border-gray-400 rounded-lg h-50">
                                 <p className="border-b border-gray-700 pb-2">{item.description}</p>
 
                                 <div className="py-3 flex gap-3 items-center">
