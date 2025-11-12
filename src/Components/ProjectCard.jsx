@@ -4,7 +4,7 @@ const ProjectCard = ({ title, desc, img, tech, liveLink, codeLink }) => {
   return (
     <div>
       <div className="border border-gray-500 rounded-lg bg-white/10 text-gray-200 h-120 hover:scale-103 duration-1000">
-        {/* Project Image */}
+        
         <div>
           <img
             src={img}
@@ -13,7 +13,7 @@ const ProjectCard = ({ title, desc, img, tech, liveLink, codeLink }) => {
           />
         </div>
 
-        {/* Project Details */}
+       
         <div className="p-5">
           <p className="font-semibold text-xl text-white pb-2">{title}</p>
 

@@ -5,7 +5,7 @@ const Section5 = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("/Database/projects")
+    fetch("/Database/projects.json")
       .then(res => res.json())
       .then(data => setData(data));
   }, []);
@@ -17,7 +17,7 @@ const Section5 = () => {
     <div className='text-white bg-black border-b border-gray-800 pb-20'>
       <div className='py-10 px-4 sm:px-10 md:px-20 xl:px-40 2xl:px-60'>
         
-        {/* Heading */}
+       
         <div className='mb-10'>
           <h1 className='text-3xl sm:text-4xl md:text-5xl font-semibold text-center max-w-4xl mx-auto pb-3'>
             Creativity Meets Code
@@ -31,8 +31,8 @@ const Section5 = () => {
         </div>
 
 
-        <marquee direction="left" className="text-xl p-4">Projects in on The Working Stage... <span className='text-2xl text-yellow-200'>Very soon Project are Showing in the Web inshaa-allah</span></marquee>
-        {/* Project Cards Grid */}
+        <marquee direction="left" className="text-xl p-4">Projects is on The Working Stage..</marquee>
+       
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 xl:gap-8'>
           { data && data.map(item => (
             
