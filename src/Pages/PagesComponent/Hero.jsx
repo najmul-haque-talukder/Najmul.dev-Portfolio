@@ -1,5 +1,7 @@
 import React from 'react'
 import DarkVeil from '../../Components/DarkVeli'
+import img from "/naj-dp.jpg"
+
 
 const Hero = () => {
   return (
@@ -8,7 +10,7 @@ const Hero = () => {
             <div className='z-10 relative'>
                 <div className="flex flex-col md:flex-row gap-4 items-center justify-center">
                     <img
-                    src="/src/assets/naj-dp.jpg"
+                    src={img}
                     className="rounded-full w-20 border-4 border-white object-cover"
                     />
                     <div>

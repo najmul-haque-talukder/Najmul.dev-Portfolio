@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router';
+import Logo from "/najmuls.png"
 
 const Header = () => {
 
@@ -13,7 +14,7 @@ const Header = () => {
           
           {/* Logo */}
           <div className="text-white flex items-center font-bold text-2xl sm:text-3xl">
-            <img src="/najmuls-min.png" className="w-14 sm:w-20" />
+            <img src={Logo} className="w-14 sm:w-20" />
             <p>Najmul.dev</p>
           </div>
 

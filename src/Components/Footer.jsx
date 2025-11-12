@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
+import Logo from "/najmuls.png"
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
           {/* Logo & About */}
           <div className='flex-1'>
             <div className='flex items-center gap-3'>
-              <img src="/najmuls-min.png" className='w-16 sm:w-20' />
+              <img src={Logo} className='w-16 sm:w-20' />
               <p className='text-2xl sm:text-3xl font-bold'>Najmul.dev</p>
             </div>
 
