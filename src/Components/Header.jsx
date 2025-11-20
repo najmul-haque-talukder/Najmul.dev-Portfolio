@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router';
 import Logo from "/najmuls.png"
 
@@ -6,13 +6,23 @@ const Header = () => {
 
   const [open, setOpen] = useState(false);
 
+  const [top, setTop] = useState(false)
+
+  useEffect(()=>{
+    const handler = ()=>{
+      if(window.scrollY >= 200) setTop(true)
+        if(window.scrollY < 250) setTop(false)
+    };
+    window.addEventListener('scroll', handler);
+    return ()=> window.removeEventListener('scroll', handler)
+  }, [])
   return (
-    <div className="w-full">
+    <div className={`fixed bg-black z-50 ${top ? 'bg-black' :'lg:bg-transparent'} w-full`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-1">
         
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between ">
           
-          {/* Logo */}
+          {/* Logo */} 
           <div className="text-white flex items-center font-bold text-2xl sm:text-3xl">
             <img src={Logo} className="w-14 sm:w-20" />
             <p>Najmul.dev</p>
@@ -39,7 +49,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {open && (
-          <ul className="md:hidden text-white flex flex-col gap-4 mt-4 text-lg pb-4">
+          <ul className="md:hidden  text-white flex flex-col gap-4 mt-4 text-lg pb-4">
             <Link to={"/"} onClick={() => setOpen(false)}><li>Home</li></Link>
             <Link to={"/about"} onClick={() => setOpen(false)}><li>About</li></Link>
             <Link to={"/contacts"} onClick={() => setOpen(false)}><li>Contacts</li></Link>

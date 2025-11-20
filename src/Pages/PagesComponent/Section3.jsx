@@ -22,7 +22,7 @@ const Section3 = () => {
             </div>
 
             <div className='px-4 sm:px-10 md:px-20 lg:px-50 pb-20'>
-                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2  gap-6'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3  gap-6'>
                     {data.map(item => (
                         <Card2
                             key={item.id}

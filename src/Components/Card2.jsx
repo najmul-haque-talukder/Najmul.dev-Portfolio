@@ -15,7 +15,7 @@ const Card2 = ({ name, icon, desc, id }) => {
             {name}
           </p>
 
-          <p className='text-gray-300 text-sm sm:text-base leading-6'>
+          <p className='text-gray-300 text-sm md:text-sm leading-6'>
             {desc}
           </p>
 

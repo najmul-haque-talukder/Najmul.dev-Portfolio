@@ -45,7 +45,7 @@ const Footer = () => {
           <div className='flex-1'>
             <p className='font-semibold text-xl sm:text-2xl pb-2'>Quick Links</p>
             <ul className='space-y-1'>
-              <Link to="/"><li className='hover:text-yellow-300 duration-500'>Home</li></Link>
+              <Link to="/"><li onClick={()=> scrollTo(0, 0)} className='hover:text-yellow-300 duration-500'>Home</li></Link>
               <Link to="/about"><li className='hover:text-yellow-300 duration-500'>About</li></Link>
               <Link to="/contacts"><li className='hover:text-yellow-300 duration-500'>Contacts</li></Link>
               <Link to="/blog"><li className='hover:text-yellow-300 duration-500'>Blog</li></Link>

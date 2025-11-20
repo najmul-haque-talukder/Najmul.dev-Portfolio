@@ -14,7 +14,7 @@ const Section5 = () => {
 
 
   return (
-    <div className='text-white bg-black border-b border-gray-800 pb-20'>
+    <div className='text-white bg-black pb-20 bg-gradient-to-b from-blue-800/10'>
       <div className='py-10 px-4 sm:px-10 md:px-20 xl:px-40 2xl:px-60'>
         
        

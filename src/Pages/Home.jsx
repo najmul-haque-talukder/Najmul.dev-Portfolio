@@ -80,10 +80,11 @@ const Home = () => {
         <div>
             <div>
                 <Hero />
+                <Section5 />
                 <Section2 />
                 <Section3 />
                 <Section4 />
-                <Section5 />
+                
             </div>
         </div>
     </div>
