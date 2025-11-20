@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full px-6 sm:px-14 lg:px-50">
 
         {/* BORDER WRAPPER */}
-        <div className="border border-white/25 mt-60 md:mt-30 rounded-2xl p-10 sm:p-14 lg:px-10 backdrop-blur-sm bg-black/20 shadow-xl">
+        <div className="border border-white/25 mt-50 md:mt-30 rounded-2xl p-10 sm:p-14 lg:px-10 backdrop-blur-sm bg-black/20 shadow-xl">
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-8">
             <img
@@ -19,7 +19,7 @@ const Hero = () => {
             />
 
             <div className="text-center md:text-left max-w-3xl">
-              <p className="font-semibold text-3xl sm:text-3xl lg:text-3xl">
+              <p className="font-semibold text-xl md:text-3xl">
                 Najmul Haque Talukder
               </p>
               <p className="text-base sm:text-lg text-gray-300">Frontend Developer</p>
