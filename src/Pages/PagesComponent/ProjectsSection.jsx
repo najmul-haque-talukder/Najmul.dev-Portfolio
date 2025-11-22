@@ -1,7 +1,7 @@
 import React, { Suspense, useEffect, useState } from 'react';
 import ProjectCard from '../../Components/ProjectCard';
 
-const Section5 = () => {
+const ProjectsSection= () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -14,13 +14,13 @@ const Section5 = () => {
 
 
   return (
-    <div className='text-white bg-black pb-20 bg-gradient-to-b from-blue-800/10'>
+    <div className='text-white bg-black pb-20 mt-20 md:border-t border-gray-800'>
       <div className='py-10 px-4 sm:px-10 md:px-20 xl:px-40 2xl:px-60'>
         
        
         <div className='mb-10'>
           <h1 className='text-3xl sm:text-4xl md:text-5xl font-semibold text-center max-w-4xl mx-auto pb-3'>
-            Creativity Meets Code
+            Project Showcase
           </h1>
           <p className='text-sm sm:text-base text-gray-300 text-center max-w-xl sm:max-w-2xl mx-auto'>
             A collection of the projects I’ve built over time — <br />
@@ -53,4 +53,4 @@ const Section5 = () => {
   );
 };
 
-export default Section5;
+export default ProjectsSection;

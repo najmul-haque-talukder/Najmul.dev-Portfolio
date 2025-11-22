@@ -11,7 +11,7 @@ const Section2 = () => {
     }, [])
 
     return (
-        <div className='bg-gray-950 text-white px-4 sm:px-10 md:px-20 lg:px-50 text-center'>
+        <div className='bg-gray-950/50 text-white px-4 sm:px-10 md:px-20 lg:px-50 text-center'>
             <div className='py-10'>
                 <p className='text-3xl sm:text-4xl md:text-5xl font-semibold text-center'>What I Do?</p>
                 <p className='max-w-xl sm:max-w-2xl mx-auto text-sm sm:text-base text-gray-300 pt-3'>

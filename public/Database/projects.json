@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "title": "Travel Booking Website",
-    "description": "A responsive travel booking UI with destination cards, filtering, and smooth animations.",
-    "tech": ["React", "Tailwind", "JavaScript"],
-    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
-    "liveLink": "https://example.com/travel",
-    "codeLink": "https://github.com/username/travel"
+    "title": "LEarning Management Website",
+    "description": "N Tech Academy is a fully responsive frontend learning platform where users can log in, browse courses, and watch video lessons smoothly on any device.",
+    "tech": ["React", "Tailwind", "JavaScript", "Clerk"],
+    "image": "../Database/projects/lms.png",
+    "liveLink": "https://learning-management-by-najmul.vercel.app/",
+    "codeLink": "https://github.com/najmul-haque-talukder/Learning-Management-Web"
   }
 ]

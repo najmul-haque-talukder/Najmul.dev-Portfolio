@@ -10,7 +10,7 @@ const Section4 = () => {
   }, []);
 
   return (
-    <div className="bg-gray-950 text-white border-b border-gray-800 pb-20">
+    <div className="bg-gray-950/50 text-white border-b border-gray-800 pb-20">
       <div className="py-16 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 max-w-6xl mx-auto">
         {/* Heading */}
         <div className="mb-12">

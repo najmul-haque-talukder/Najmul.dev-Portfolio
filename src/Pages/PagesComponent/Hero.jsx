@@ -19,6 +19,7 @@ const Hero = () => {
             />
 
             <div className="text-center md:text-left max-w-3xl">
+                <p className="text-sm">Hello, I'm </p>
               <p className="font-semibold text-xl md:text-3xl">
                 Najmul Haque Talukder
               </p>

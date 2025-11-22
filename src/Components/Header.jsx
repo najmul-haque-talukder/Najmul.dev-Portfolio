@@ -11,13 +11,13 @@ const Header = () => {
   useEffect(()=>{
     const handler = ()=>{
       if(window.scrollY >= 200) setTop(true)
-        if(window.scrollY < 250) setTop(false)
+        if(window.scrollY < 200) setTop(false)
     };
     window.addEventListener('scroll', handler);
     return ()=> window.removeEventListener('scroll', handler)
   }, [])
   return (
-    <div className={`fixed bg-black z-50 ${top ? 'bg-black' :'lg:bg-transparent'} w-full`}>
+    <div className={`fixed bg-black z-50 ${top ? 'bg-black border-b border-gray-800' :'lg:bg-transparent'} w-full`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-1">
         
         <div className="flex items-center justify-between ">
@@ -34,7 +34,7 @@ const Header = () => {
             <Link to={"/about"}><li>About</li></Link>
             <Link to={"/contacts"}><li>Contacts</li></Link>
             <Link to={"/blog"}><li>Blog</li></Link>
-            <Link to={"/projects"}><li>Projects</li></Link>
+            <Link to={"/projects"}><li onClick={()=> scrollTo(0, 0)}>Projects</li></Link>
           </ul>
 
           {/* Mobile Menu Button */}
