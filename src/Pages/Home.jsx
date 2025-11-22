@@ -7,6 +7,7 @@ import Section4 from "./PagesComponent/Section4";
 import Section5 from "./PagesComponent/Section5";
 import Footer from "../Components/Footer";
 import Hero from "./PagesComponent/Hero";
+import Contacts from "./Contacts";
 
 const Home = () => {
   return (
@@ -84,6 +85,8 @@ const Home = () => {
                 <Section2 />
                 <Section3 />
                 <Section4 />
+
+                <Contacts />
                 
             </div>
         </div>

@@ -3,8 +3,9 @@ import React from 'react';
 const ProjectCard = ({ title, desc, img, tech, liveLink, codeLink }) => {
   return (
     <div>
-      <div className="border border-gray-500 rounded-lg bg-white/10 text-gray-200 h-140 hover:scale-103 duration-1000">
-        
+
+      <div  className="border border-gray-500 rounded-lg bg-white/10 text-gray-200 h-140 hover:scale-103 duration-1000">
+        <a href=""></a>
         <div>
           <img
             src={img}
