@@ -9,7 +9,7 @@ const ProjectCard = ({ title, desc, img, tech, liveLink, codeLink }) => {
         <div>
           <img
             src={img}
-            className="rounded-t-lg w-full h-60 bg-cover"
+            className="rounded-t-lg w-full h-60 object-cover"
             alt={title}
           />
         </div>
