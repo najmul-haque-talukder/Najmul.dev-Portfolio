@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "LEarning Management Website",
+    "title": "Learning Management Website",
     "description": "N Tech Academy is a fully responsive frontend learning platform where users can log in, browse courses, and watch video lessons smoothly on any device.",
     "tech": ["React", "Tailwind", "JavaScript", "Clerk"],
     "image": "../Database/projects/lms.png",
