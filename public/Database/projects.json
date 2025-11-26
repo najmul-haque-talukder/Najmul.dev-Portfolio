@@ -16,5 +16,14 @@
     "image": "../Database/projects/e-commerce.png",
     "liveLink": "https://nest-shop-by-najmul.vercel.app/",
     "codeLink": "https://github.com/najmul-haque-talukder/Nest-Shop"
+  },
+  {
+    "id": 3,
+    "title": "Learning Management System",
+    "description": "Nest Shop is a fully responsive frontend learning Management System platform where users can browse Coures, Course Page, Payout page and other things smoothly on any device.",
+    "tech": ["Next.js", "Tailwind", "Clerk"],
+    "image": "../Database/projects/lms-2.JPG",
+    "liveLink": "https://learining-management-next.netlify.app/",
+    "codeLink": "https://github.com/najmul-haque-talukder/Learning-Management-Web-Next-js"
   }
 ]
